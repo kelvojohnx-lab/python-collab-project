@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Dashboard - Virtual Farming</title>
+</head>
+<body>
+    <h2>Welcome, {{ username }}!</h2>
+    <p>This is your virtual farming dashboard.</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
